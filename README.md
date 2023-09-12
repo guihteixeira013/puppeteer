@@ -1,6 +1,6 @@
+# Puppeteer
 <div style="display: inline_block">
-    <h1> Puppeteer </h1>
-  <img alt="puppeteer icon" height="80" width="60" src="https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png">
+  <img alt="puppeteer icon" height="100" width="80" src="https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png">
 </div>
 
 ## What's pupppeteer?
