@@ -1,6 +1,8 @@
-# puppeteer
+# Puppeteer
  
-[![Puppeteer icon](/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png)
+<div style="display: absolute; align: right"><br>
+  <img alt="puppeteer icon" height="60" width="40" src="https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png">
+ </div>
 
 ## What's pupppeteer?
 Puppeteer is a Node.js library which provides a high-level API to control Chrome/Chromium over the DevTools Protocol. Puppeteer runs in headless mode by default, but can be configured to run in full ("headful") Chrome/Chromium.
