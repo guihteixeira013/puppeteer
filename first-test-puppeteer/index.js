@@ -1,12 +1,12 @@
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer');     //importando biblioteca
 
-console.log("coins converter");
+async function robot() {
+    const browser = await puppeteer.launch( {headless: false} );         //abrindo browser
+    const page = await browser.newPage();                                //abrindo nova pagina
+    
+    await page.goto('https://google.com');                               //indo para google.com
+    await page.screenshot( {path: 'print.png'} );                        //tirando print da pagina
+    await browser.close();                                               //fechando navegador
+}
 
-(async () => {
-    const browser = await puppeteer.launch({ headless: false});   // abrindo navegador
-    const page = await browser.newPage();       // abrindo nova pagina
-    await page.goto('https://google.com');      // preenchendo URL
-    await page.screenshot({path: 'example.png'})// tirando print da página
-    console.log("entrou");
-    await browser.close();                      // fechando navegador
-})();
+robot();
